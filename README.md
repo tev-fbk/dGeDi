@@ -1,6 +1,5 @@
-# Nerfies
-
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+# Distilling 3D distinctive local descriptors for 6D pose estimation
+This is the repository that contains source code for the dGeDi website. The website template is from [Nerfies](https://nerfies.github.io).
 
 If you find Nerfies useful for your work please cite:
 ```
