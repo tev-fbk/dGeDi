@@ -1,2 +1,15 @@
 .DS_store
 .idea
+*__pycache__*
+
+*build*
+*dist*
+*.egg-info
+
+logs*
+npz_file*
+
+*.parquet
+
+*.pth
+
