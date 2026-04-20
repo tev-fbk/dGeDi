@@ -184,7 +184,6 @@ Full argument reference:
 |---|---|---|
 | `--query_pcd` | `pcds/query_pcd/obj_000001.ply` | Path to query point cloud |
 | `--target_dir` | `pcds/target_pcd` | Directory of target point clouds |
-| `--target_ids` | *(all)* | Subset of target IDs, e.g. `--target_ids 1 2 3` |
 | `--config` | `config_dgedi.yaml` | Path to YAML config |
 | `--mode` | `multi_scale` | `single_scale` or `multi_scale` |
 | `--out_dir` | `./dgedi_pca_out` | Output directory |
@@ -199,7 +198,7 @@ Each run saves the following files in `--out_dir`:
 | File | Description |
 |---|---|
 | `<query>_PCA.ply` | Query cloud coloured by PCA of dGeDi features |
-| `<target>_PCA.ply` | Target cloud coloured in the same PCA space (same colour = similar descriptor) |
+| `<target>_PCA.ply` | Target cloud coloured in the same PCA space |
 | `<query>_to_<target>_registered_RANSAC_ICP.ply` | Registered query + target overlay |
 
 ---
@@ -212,10 +211,10 @@ Each run saves the following files in `--out_dir`:
 single_scale:
   weights_path: 'checkpoints/dGeDi_single_scale.pth'
   model_config:
-    enc_channels: [32, 64, 128, 256, 512]   # encoder stage widths
-    enc_num_head: [2, 4, 8, 16, 32]          # encoder attention heads per stage
-    dec_channels: [32, 64, 128, 256]         # decoder stage widths
-    dec_num_head: [4, 4, 8, 16]              # decoder attention heads per stage
+    enc_channels: [32, 64, 128, 256, 512] 
+    enc_num_head: [2, 4, 8, 16, 32]          
+    dec_channels: [32, 64, 128, 256]         
+    dec_num_head: [4, 4, 8, 16]              
     enable_flash: True    # set False if Flash Attention is not installed
     normalize_features: True  # L2-normalise output descriptors
 
@@ -224,7 +223,7 @@ multi_scale:
   model_config:
     enc_channels: [32, 64, 128, 256, 512]
     enc_num_head: [2, 4, 8, 16, 32]
-    dec_channels: [64, 64, 128, 256]         # wider decoder for multi-scale fusion
+    dec_channels: [64, 64, 128, 256]        
     dec_num_head: [4, 4, 8, 16]
     enable_flash: True
     normalize_features: True
