@@ -51,7 +51,7 @@ We validate our approach on five BOP Benchmark datasets and demonstrate a signif
 
 ## Environment Setup
 
-> **Tested configuration:** Linux, CUDA 11.8, Python 3.10
+> **Tested configuration:** Ubuntu 20.04, CUDA 11.8, Python 3.10
 >
 > **Minimum requirements:** Ubuntu 18.04+, CUDA 11.3+, PyTorch 1.10.0+
 
