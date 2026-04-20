@@ -15,7 +15,7 @@
 
 {ahamza, acaraffa, dboscaini, poiesi}@fbk.eu
 
-[![arXiv](https://img.shields.io/badge/arXiv-2503.15106-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.15106v2)
+[![arXiv](https://img.shields.io/badge/arXiv-2503.15106-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.15106v3)
 [![YouTube](https://img.shields.io/badge/Video-YouTube-red?logo=youtube&logoColor=white)](https://youtu.be/jPz__8H0csc)
 [![HuggingFace](https://img.shields.io/badge/Checkpoints-HuggingFace-yellow?logo=huggingface&logoColor=white)](https://huggingface.co/ahamza848/dGeDi)
 
