@@ -70,9 +70,9 @@ source ~/.bashrc
 
 ### 2. Create and activate the virtual environment
 ```bash
-export UV_CACHE_DIR=/dGeDi/.cache/uv
-uv venv /dGeDi/envs/dGeDi_env --python 3.10
-source /dGeDi/envs/dGeDi_env/bin/activate
+export UV_CACHE_DIR=$(pwd)/.cache/uv
+uv venv $(pwd)/envs/dGeDi_env --python 3.10
+source $(pwd)/envs/dGeDi_env/bin/activate
 ```
 
 ### 3. PyTorch 2.1.0 + CUDA 11.8
