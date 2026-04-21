@@ -67,8 +67,8 @@ source ~/.bashrc
 ```bash
 # Replace /your/work/storage with your actual storage path
 export UV_CACHE_DIR=/your/work/storage/.cache/uv
-uv venv /your/work/storage/envs/dGeDi --python 3.10
-source /your/work/storage/envs/dGeDi/bin/activate
+uv venv /your/work/storage/envs/dGeDi_env --python 3.10
+source /your/work/storage/envs/dGeDi_env/bin/activate
 ```
 
 ### 3. PyTorch 2.1.0 + CUDA 11.8
