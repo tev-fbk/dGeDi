@@ -91,7 +91,7 @@ uv pip install numpy==1.26.4 scipy h5py==3.14.0 pyyaml
 uv pip install setuptools wheel
 ```
 
-### 6. SharedArray (OPTIONAL)
+### 6. SharedArray (Optional) ⚠️
 ```bash
 uv pip install SharedArray==3.2.0 --no-build-isolation
 ```
@@ -120,7 +120,7 @@ uv pip install spconv-cu118==2.3.8
 uv pip install open3d==0.17.0
 ```
 
-### 11. Flash Attention
+### 11. Flash Attention (Optional, if your GPU supports) ⚠️
 
 **Option A — prebuilt wheel (recommended, no compilation):**
 ```bash
@@ -132,7 +132,7 @@ uv pip install flash_attn-2.5.9.post1+cu118torch2.1cxx11abiFALSE-cp310-cp310-lin
 
 Follow the official installation instructions at https://github.com/Dao-AILab/flash-attention?tab=readme-ov-file#installation-and-features
 
-> **No Flash Attention?** Set `enable_flash: False` in `config_dgedi.yaml` — the model falls back to standard attention.
+> > **Flash Attention is optional.** If not installed, set `enable_flash: False` in `config_dgedi.yaml` — the model falls back to standard attention.
 > For more details see the [PointTransformerV3 Flash Attention notes](https://github.com/pointcept/pointtransformerv3#flash-attention).
 
 ### 12. Other packages
