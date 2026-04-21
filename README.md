@@ -132,7 +132,7 @@ uv pip install flash_attn-2.5.9.post1+cu118torch2.1cxx11abiFALSE-cp310-cp310-lin
 
 Follow the official installation instructions at https://github.com/Dao-AILab/flash-attention?tab=readme-ov-file#installation-and-features
 
-> > **Flash Attention is optional.** If not installed, set `enable_flash: False` in `config_dgedi.yaml` — the model falls back to standard attention.
+> > 💡 **Flash Attention is optional.** If not installed, set `enable_flash: False` in `config_dgedi.yaml` — the model falls back to standard attention.
 > For more details see the [PointTransformerV3 Flash Attention notes](https://github.com/pointcept/pointtransformerv3#flash-attention).
 
 ### 12. Other packages
