@@ -271,10 +271,14 @@ This study was funded by the European Union – NextGenerationEU, in the framewo
 
 ### Code License
 
-This code is released under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
-
+<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">
+  <img alt="Creative Commons License" style="border-width:0"
+  src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" />
+</a><br />
+This code is licensed under a
+<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">
+Creative Commons Attribution-NonCommercial 4.0 International License</a>. 
 You may use this code **for academic purposes only**. Any commercial or military use is strictly forbidden.
-
 Full license: https://creativecommons.org/licenses/by-nc/4.0/
 
 ### Website License
