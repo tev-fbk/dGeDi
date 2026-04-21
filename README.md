@@ -57,6 +57,11 @@ We validate our approach on five BOP Benchmark datasets and demonstrate a signif
 >
 > **Minimum requirements:** Ubuntu 18.04+, CUDA 11.3+, PyTorch 1.10.0+
 
+```bash
+git clone https://github.com/tev-fbk/dGeDi.git
+cd dGeDi
+```
+
 ### 1. Install `uv`
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -65,10 +70,9 @@ source ~/.bashrc
 
 ### 2. Create and activate the virtual environment
 ```bash
-# Replace /your/work/storage with your actual storage path
-export UV_CACHE_DIR=/your/work/storage/.cache/uv
-uv venv /your/work/storage/envs/dGeDi_env --python 3.10
-source /your/work/storage/envs/dGeDi_env/bin/activate
+export UV_CACHE_DIR=/dGeDi/.cache/uv
+uv venv /dGeDi/envs/dGeDi_env --python 3.10
+source /dGeDi/envs/dGeDi_env/bin/activate
 ```
 
 ### 3. PyTorch 2.1.0 + CUDA 11.8
@@ -179,6 +183,7 @@ python demo.py --mode multi_scale
 # Single-scale
 python demo.py --mode single_scale
 ```
+Note : All paths assume you are running from inside the dGeDi/ repo root.
 
 Full argument reference:
 
