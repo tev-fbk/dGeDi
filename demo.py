@@ -18,7 +18,7 @@ try:
 except ImportError:
     TQDM_AVAILABLE = False
 
-from core.dgedi_distlled import dgedi
+from core.dgedi_distilled import dgedi
 from utils import load_yaml_config, compute_diameter, normalize_and_center, extract_features, register_one
 
 
