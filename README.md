@@ -258,7 +258,7 @@ If you find this work useful, please cite:
 
 ## Acknowledgement
 
-This study was funded by the European Union – NextGenerationEU, in the framework of the iNEST – Interconnected Nord-Est Innovation Ecosystem (Piano Nazionale di Ripresa e Resilienza (PNRR) – Missione 4, Componente 2, Investimento 1.5, D.D. 1058 23/06/2022, iNEST ECS00000043 – Spoke3, CUP E63C22001030007). The views and opinions expressed are solely those of the authors and do not necessarily reflect those of the European Union, nor can the European Union be held responsible for them. We acknowledge ISCRA for awarding this project access to the LEONARDO supercomputer, owned by the EuroHPC Joint Undertaking, hosted by CINECA (Italy). We also acknowledge the authors of \href{https://github.com/pointcept/pointtransformerv3}{Point Transformer V3} for making their implementation publicly available, which facilitated this research.
+This study was funded by the European Union – NextGenerationEU, in the framework of the iNEST – Interconnected Nord-Est Innovation Ecosystem (Piano Nazionale di Ripresa e Resilienza (PNRR) – Missione 4, Componente 2, Investimento 1.5, D.D. 1058 23/06/2022, iNEST ECS00000043 – Spoke3, CUP E63C22001030007). The views and opinions expressed are solely those of the authors and do not necessarily reflect those of the European Union, nor can the European Union be held responsible for them. We acknowledge ISCRA for awarding this project access to the LEONARDO supercomputer, owned by the EuroHPC Joint Undertaking, hosted by CINECA (Italy). We also acknowledge the authors of [Point Transformer V3](https://github.com/pointcept/pointtransformerv3) for making their implementation publicly available, which facilitated this research.
 
 ---
 
