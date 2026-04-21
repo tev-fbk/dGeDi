@@ -91,7 +91,7 @@ uv pip install numpy==1.26.4 scipy h5py==3.14.0 pyyaml
 uv pip install setuptools wheel
 ```
 
-### 6. SharedArray (Optional) ⚠️
+### 6. SharedArray (Optional) 🧯
 ```bash
 uv pip install SharedArray==3.2.0 --no-build-isolation
 ```
@@ -120,7 +120,7 @@ uv pip install spconv-cu118==2.3.8
 uv pip install open3d==0.17.0
 ```
 
-### 11. Flash Attention (Optional, if your GPU supports) ⚠️
+### 11. Flash Attention (Optional, if your GPU supports) 🧯
 
 **Option A — prebuilt wheel (recommended, no compilation):**
 ```bash
