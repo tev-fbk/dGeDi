@@ -91,7 +91,7 @@ uv pip install numpy==1.26.4 scipy h5py==3.14.0 pyyaml
 uv pip install setuptools wheel
 ```
 
-### 6. SharedArray
+### 6. SharedArray (OPTIONAL)
 ```bash
 uv pip install SharedArray==3.2.0 --no-build-isolation
 ```
