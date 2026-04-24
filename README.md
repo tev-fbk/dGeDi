@@ -21,7 +21,7 @@
 [![HuggingFace](https://img.shields.io/badge/Checkpoints-HuggingFace-yellow?logo=huggingface&logoColor=white)](https://huggingface.co/ahamza848/dGeDi)
 
 
-<img src="./static/IROS25_dGeDi-teaser.avif" width="750" alt="dGeDi teaser">
+<img src="./static/images/IROS25_dGeDi-teaser.png" width="750" alt="dGeDi teaser">
 
 </div>
 
