@@ -251,11 +251,11 @@ multi_scale:
 If you find this work useful, please cite:
 
 ```bibtex
-@article{hamza2025distilling3ddistinctivelocal,
-  author  = {Hamza, Amir and Caraffa, Andrea and Boscaini, Davide and Poiesi, Fabio},
-  title   = {Distilling 3D distinctive local descriptors for 6D pose estimation},
-  journal = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  year    = {2025},
+@inproceedings{hamza2025dgedi,
+    title = {{Distilling 3D distinctive local descriptors for 6D pose estimation}},
+    author = {Hamza, Amir and Caraffa, Andrea and Boscaini, Davide and Poiesi, Fabio},
+    booktitle = {IROS},
+    year = {2025},
 }
 ```
 
